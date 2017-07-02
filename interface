@@ -1,0 +1,10 @@
+def get_legal_moves(self, color): #返回位置list:[(2,3),(5,2)]
+
+self.__pieces 8*8的list 1代表白色 -1代表黑色 0代表空
+
+def count(self, color): #返回某个颜色的个数
+
+__directions = [(1,1),(1,0),(1,-1),(0,-1),(-1,-1),(-1,0),(-1,1),(0,1)]
+
+要实现：get_move(self, board, color, move_num=None,time_remaining=None, time_opponent=None): move_num指回合数0-59回合，黑白各走一步一回合
+返回一个(x,y)的坐标
